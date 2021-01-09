@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#F3F0F0"
+    tools:context=".ProductDetails">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardElevation="10dp"
+        android:elevation="10dp"
+        android:background="#101010"
+        app:cardCornerRadius="8dp"
+
+        >
+        <ImageView
+            android:id="@+id/detailsProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            android:src="@drawable/ic_launcher_foreground"
+            />
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/detailsProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/detailsProducCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/detailsTagPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tag Price"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/detailsSalePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sale Price"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/detailsBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Description:"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/detailsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>
